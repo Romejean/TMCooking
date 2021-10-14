@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+  <link href="fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>TMCooking</title>
+</head>
+<body>
+  <!-- navbar -->
+  <div class="container">
+    <nav class="navbar navbar-light bg-light navbar-expand-md my-3">
+      <div class="container">
+        
+        <a class="navbar-brand" href="index.html"><img src="assets/logo.png" class="logo" alt="logo TMCooking"></a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">CHEF</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="livre.html">LIVRES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="recette.html">RECETTES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">ACTUALITES</a>
+            </li>
+          </ul>
+          <div class="bouton">
+            <a href="login.html" class="btn ">LOGIN</a>
+            <a href="register.html" class="btn ">REGISTER</a>
+          </div>
+        </div>
+        
+      </div>
+    </nav>
+  </div>
+  
+  
+  <!-- <section class="mb-3">
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler second-button" type="button" data-mdb-toggle="collapse"
+        data-mdb-target="#navbarToggleExternalContent10"
+        aria-controls="navbarToggleExternalContent10" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+      </button>
+    </div>
+  </nav>
+  <div class="collapse" id="navbarToggleExternalContent10">
+    <div class="bg-light shadow-3 p-4">
+      <button class="btn btn-link btn-block border-bottom m-0">Link 1</button>
+      <button class="btn btn-link btn-block border-bottom m-0">Link 2</button>
+      <button class="btn btn-link btn-block m-0">Link 3</button>
+    </div>
+  </div>
+</section>
+</nav> -->
+
+<!-- <nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler ms-auto" type="button" data-mdb-toggle="collapse"
+    data-mdb-target="#navbarToggleExternalContent3" aria-controls="navbarToggleExternalContent3"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-bars"></i>
+  </button>
+</div>
+</nav>
+<div class="collapse" id="navbarToggleExternalContent3">
+  <div class="bg-light shadow-3 p-4">
+    <button class="btn btn-link btn-block border-bottom m-0">Link 1</button>
+    <button class="btn btn-link btn-block border-bottom m-0">Link 2</button>
+    <button class="btn btn-link btn-block m-0">Link 3</button>
+  </div>
+</div>
+</nav> -->
+<!-- Vidéo youtube -->
+
+<div class="container">
+  
+  <div class="youtube my-3">
+    <iframe width="560" height="315" class="ifram" src="https://www.youtube-nocookie.com/embed/wDby9FiRoCs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  
+</div>
+
+
+
+<!-- container avec recette du moment et card group pour les recettes -->
+
+
+<div class="container">
+  <div class="test">
+    <hr>
+    
+    <div ><h1 class="titre mx-auto my-3">Les recettes du moment</h1></div>
+    <div class="card-group mb-5">
+      <div class="card mx-3 mb-3 rounded">
+        <img src="assets/plat1.png" class="card-img-top rounded" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Caviar terre et mer</h5>
+          <p class="card-text">Un subtils mélange entre les produits de la mer et de la terre sur une émulsion d'encre de seiche a la myrtille.</p>
+        </div>
+        
+      </div>
+      <div class="card mx-3 mb-3 rounded">
+        <img src="assets/plat2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ecrasé de légume et champignons</h5>
+          <p class="card-text">Une émulsion de veaux aux saveur printanières avec ces légumes cuits.</p>
+        </div>
+        
+      </div>
+      <div class="card mx-3 my-3 rounded">
+        <a href="recette.html"><img src="assets/plat3.png" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">Potion au perle de thé vert</h5>
+          <p class="card-text">Dans les fortes chaleur, votre meilleur ami sera cette petite préparation.
+            Un grand pouvoir désaltérant et des déclinaisons selon vos envies.</p>
+          </div>
+          
+        </div>
+      </div>
+    </div> 
+  </div>
+  
+  <!-- search -->
+  <div class="container">
+    <div class="footer">
+      <div class="search">
+        <hr>
+        
+        <div class="divsearch p-1 rounded-pill shadow-sm mb-4 mx-auto">
+          <div class="input-group">
+            <input type="search" placeholder="Faites vos recherches" aria-describedby="button-addon1" class="form-control border-0 rounded-pill">
+            <div class="input-group-append">
+              <!-- <img src="assets/search.png"/></button> -->
+              <button id="button-addon1" type="submit" class="btn btn-link text-primary"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bottomfooter mt-5 mb-4">
+        <a href="#">Mention Légale</a>
+        <a href="#">Copyright</a>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+</body>
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+<script src="main.js"></script>
